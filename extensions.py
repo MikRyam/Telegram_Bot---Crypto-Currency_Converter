@@ -32,3 +32,4 @@ class CryptoConverter:
         total_base = (json.loads(r.content)[keys[base]]) * amount
 
         return round(total_base, 2)
+
