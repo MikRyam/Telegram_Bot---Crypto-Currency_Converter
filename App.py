@@ -12,7 +12,7 @@ def help(message: telebot.types.Message):
 <в какую валюту перевести>  \
 <количество переводимой валюты>\nУвидеть список всех доступных валют: /values'
     bot.reply_to(message, text)
-    
+
 
 @bot.message_handler(commands=['values'])
 def values(message: telebot.types.Message):
