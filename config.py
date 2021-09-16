@@ -1,5 +1,5 @@
 
-TOKEN = '0'
+TOKEN = ''
 
 keys = {
     'биткоин': 'BTC',
